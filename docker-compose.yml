@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+
+    selfsign_cert:
+        image: davidyytan/selfsign_cert:latest
+        volumes:
+            - ./ssl_certs:/ssl_certs
+
+
